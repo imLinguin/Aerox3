@@ -40,6 +40,8 @@ This is the way I numbered them in [Colors](#colors) below
 # DPI
 Maximum 5 profiles are supported
 
+DPI must be between 200-8500
+
 ### Example of setting 5 profiles, first mode is current
 ![](dpi-example.png)
 
