@@ -2,7 +2,7 @@
 
 
 # Zones Scheme
-This is a way I numered them in [Colors](#colors) below
+This is the way I numbered them in [Colors](#colors) below
 
 ![](zone-scheme.png)
 
