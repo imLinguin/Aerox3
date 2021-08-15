@@ -1,4 +1,4 @@
-# [Aerox 3](https://steelseries.com/gaming-mice/aerox-3) Reverse Engeneering Results
+# [Aerox 3](https://steelseries.com/gaming-mice/aerox-3) Reverse Engineering Results
 
 
 # Zones Scheme
