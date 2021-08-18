@@ -8,24 +8,34 @@ This is the way I numbered them in [Colors](#colors) below
 
 # Colors
 ### Zone 1
-`21 01 ff 48 00 00 00 00 00 00 00`
+`21 01 rr gg bb 00 00 00 00 00 00`
 ### Zone 2
-`21 02 00 00 00 ff 30 00 00 00 00`
+`21 02 00 00 00 rr gg bb 00 00 00`
 ### Zone 3
-`21 04 00 00 00 00 00 00 ff 0f 00`
+`21 04 00 00 00 00 00 00 rr gg bb`
 
 # LED Brightness
 ### Ilumination Disabled - 0
-`23 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00`
+`23 00`
 ### 1/4
-`23 0c 00 00 00 00 00 00 00 00 00 00 00 00 00 00`
+`23 0c`
 ### 2/4
-`23 19 00 00 00 00 00 00 00 00 00 00 00 00 00 00`
+`23 19`
 ### 3/4
-`23 32 00 00 00 00 00 00 00 00 00 00 00 00 00 00`
+`23 32`
 ### Full - 4/4
-`23 64 00 00 00 00 00 00 00 00 00 00 00 00 00 00`
+`23 64`
 
+# Reactive Effect
+This is the reaction for any mouse button clicked. (Wave looking color comming from top to bottom.)
+It can be enabled or disabled
+
+`26 01 00 rr gg bb`
+
+01 here is how bright effect should be.
+
+## Effect Disabled
+`26 00 00 00 00 00`
 
 # Pooling Rate
 ### 1000Hz
@@ -56,8 +66,7 @@ There must be at least one profile
 CURRENT_PROFILE starts from 00 to 04
 
 
-# Save (Probably)
+# Save (Surely)
 It's being sent always after changing DPI, Pooling Rate etc. and clicking `Save` in engine
-I'm asuming it's some kind of save command
 
 `11 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00`
