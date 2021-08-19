@@ -32,8 +32,6 @@ It can be enabled or disabled
 
 `26 01 00 rr gg bb`
 
-01 here is how bright effect should be.
-
 ## Effect Disabled
 `26 00 00 00 00 00`
 
